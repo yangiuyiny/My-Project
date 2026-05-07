@@ -10,6 +10,7 @@ th.info{
 }
 tr.info th{
 	font-weight:normal;
+	text-align:left;
 }
 img{
 	width:100px;
