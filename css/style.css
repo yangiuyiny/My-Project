@@ -1,1 +1,17 @@
-/*CODE*/
+table.contaier{ 
+    margin:5px;
+    border: 1px solid black;
+    text-align: left;
+}
+th.info{
+    margin:10px;
+    font-weight: normal;
+}
+tr.info th{
+    font-weight: normal;
+}
+img{
+    width:100px;
+    height:150px;
+    padding:5px;
+}
