@@ -1,0 +1,19 @@
+table.contaier{ 
+	margin: 5px;
+	border: 1px solid black;
+	text-align:left;
+}
+th.info{
+	margin:10px;
+	font-weight:normal;
+	padding:5px;
+}
+tr.info td{
+	font-weight:normal;
+	text-align:left;
+}
+img{
+	width:100px;
+	height:150px;
+	padding:5px;
+}
