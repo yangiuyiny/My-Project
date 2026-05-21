@@ -13,9 +13,9 @@ h2#title{
 }
 div#container{
 	background-color:white;
-	max-width:300px;
+	max-width:500px;
 	width:100%;
-	padding:0px 20px;
+	padding:10px 20px;
 	margin: 0px 50px;
 	border-radius:5px;
 	display: flex;
@@ -31,7 +31,7 @@ body{
 }
 
 div.frm{
-	color:blue;
+	color:black;
 	margin: 0px auto;
 	padding:3px;
 }
@@ -42,9 +42,21 @@ label{
 
 }
 
-input#txtUsername{
+input{
 	border-radius:5px;
 }
-input#txtPassword{
-	border-radius:5px;
+div#login{
+	padding-top:15px;
+	padding-left:3px;
+}
+
+a#nut{
+	text-decoration:none;
+	font-weight:bolder;
+	display: inline-block;
+}
+button{
+	margin:10px;
+	padding-right:5px;
+	color:black;
 }
