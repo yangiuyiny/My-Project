@@ -1,10 +1,25 @@
 <DOCTYPE html>
 <html lang="vi">
 	<head>
-		<title>Trang số 3</title>
+		<title>Form login</title>
 		<meta charset="utf-8">
+		<link href="../css/style3.css" rel="stylesheet">
 	</head>
 	<body>
-		<h3>Trang số 3</h3>
+		<div id="container">
+			<form>
+				<h2 id="title">Login</h2>
+				<div class="frm">
+					<label for="txtUsername">Username:</label>
+					<input type="text" placeholder="Tên đăng nhập" id="txtUsername" name="txtUsername">
+				</div class="form-group">
+				<div class="frm">
+					<label for="txtPassword">Password:</label>
+					<input type="password" placeholder="Mật khẩu" id="txtPassword" name="txtPassword">					
+				</div>
+				<input type="submit" id="sbLogin" name="sbLogin">
+				<input type="reset" id="rsCancel" name="rsCancel">
+			</form>
+		</div>
 	<body>
 </html>
