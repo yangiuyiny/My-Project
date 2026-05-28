@@ -1,0 +1,33 @@
+<DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Java Script</title>
+		<meta charset="utf-8">
+		<link href="../css/index.css" rel="stylesheet">
+	</head>
+		<body>
+			<!-- quay lại trang buổi 4 -->
+			<p><a href="buoi4.html">Quay lại</a></p>
+		<script>
+
+			//nhập chiều dài và chiều rộng của hình chữ nhật
+			//nếu chiều rộng > chiều dài -> yêu cầu nhập lại
+			let d = Number(prompt("Nhập chiều dài: "));
+			let r;
+			do {
+				if (r > d) {
+					alert("Chiều rộng phải nhỏ hơn chiều dài, vui lòng nhập lại");
+				}
+				r = Number(prompt("Nhập chiều rộng: "));
+			} while (r > d);
+
+			// nếu rộng = dài -> dt hình vuông
+			// nếu rộng khác dài -> dt hình chữ nhật
+			if (d == r) {
+				alert("Đây là hình vuông, diện tích là: " + (d*d));
+			} else {
+				alert("Đây là hình chữ nhật, diện tích là: " + (d*r));
+			}
+		</script>
+	</body>
+</html>

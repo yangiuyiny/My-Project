@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Java Script</title>
+		<meta charset="utf-8">
+		<link href="../css/buoi4_4.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- hóa đơn mua hàng -->
+		 <table class="hoadon">
+			<tr>
+				<th>STT</th>
+				<th class="tenhang">Tên hàng</th>
+				<th class="soluong">Số lượng</th>
+				<th class="dongia">Đơn giá</th>
+				<th class="dvt">Đvt</th>
+				<th class="thanhtien">Thành tiền</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td class="tenhang">Áo thun</td>
+				<td class="soluong">2</td>
+				<td class="dongia">100000</td>
+				<td class="dvt">Cái</td>
+				<td class="thanhtien">?</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td class="tenhang">Quần dài</td>
+				<td class="soluong">2</td>
+				<td class="dongia">300000</td>
+				<td class="dvt">Cái</td>
+				<td class="thanhtien">?</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td class="tenhang">Giày thể thao</td>
+				<td class="soluong">1</td>
+				<td class="dongia">500000</td>
+				<td class="dvt">Đôi</td>
+				<td class="thanhtien">?</td>
+			</tr>
+			<tr>
+				<td colspan="5">Tổng tiền</td>
+				<td id="tongthanhtoan">?</td>	
+		 </table>
+		 <br>
+		 		<!-- quay lại trang buổi 4 -->
+		<p><a href="buoi4.html">Quay lại</a></p>
+		 <script>
+
+			//khai báo	
+			const sl = document.getElementsByClassName("soluong");
+			const dg = document.getElementsByClassName("dongia");
+			const tt = document.getElementsByClassName("thanhtien");
+			let tong = 0;
+
+			// tính thành tiền và tổng thanh toán
+			for (let i = 1; i < sl.length; i++) {
+				tt[i].innerText = Number(sl[i].innerHTML) * Number(dg[i].innerHTML);
+				tong += Number(tt[i].innerHTML);
+			}
+			document.getElementById("tongthanhtoan").innerHTML = tong;
+		 </script>
+	</body>
+</html>
