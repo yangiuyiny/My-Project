@@ -24,6 +24,11 @@ a{
     margin-right: 20px;
     border-radius: 10px;
 }
+.container-image{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 .container-item{
     width: 300px;
     margin: 20px;
