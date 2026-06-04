@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>In bảng cửu chương bằng JS</title>
+		<meta charset="utf-8">
+		<link href="../css/buoi5_1.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- trở về trang chủ -->
+		<p><a href="../index.html">Trang chủ</a></p>
+		<div class="container">
+		<form id="frmBCC">
+			<h1>IN BẢNG CỬU CHƯƠNG</h1>
+			<label>Nhập số bảng cửu chương muốn in:</label><br>
+			<input type="number" id="txtSo" name="txtSo" value="2"><br>
+			<input type="button" id="btnIn" name="btnIn" value="In bảng cửu chương" onclick="inBCC(document.getElementById('txtSo').value)">
+			<div id="result"></div>
+		</form>			
+		</div>
+		<script src="../js/buoi5.js"></script>
+	</body>
+</html>
