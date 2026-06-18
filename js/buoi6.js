@@ -4,7 +4,7 @@ const products = [
         name: "Mèo trắng",
         price: "200.000đ",
         description: "Một con mèo trắng dễ thương",
-        link: "#",
+        link: "chi-tiet.html",
         image: "../assets/images/whitecat.jpg"
     },
     {
@@ -12,7 +12,7 @@ const products = [
         name: "Mèo tam thể",
         price: "150.000đ",
         description: "Một con mèo tam thể dễ thương",
-        link: "#",
+        link: "chi-tiet1.html",
         image: "../assets/images/cattamthe.jpg"
     },    
     {
@@ -20,7 +20,7 @@ const products = [
         name: "Mèo đen",
         price: "100.000đ",
         description: "Một con mèo đen dễ thương",
-        link: "#",  
+        link: "chi-tiet2.html",
         image: "../assets/images/blackcat.jpg"
     },
     {
@@ -28,7 +28,7 @@ const products = [
         name: "Mèo cam",
         price: "50.000đ",
         description: "Một con mèo cam dễ thương",
-        link: "#",
+        link: "chi-tiet3.html",
         image: "../assets/images/orangecat.jpg"
     },
 
